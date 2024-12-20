@@ -29,8 +29,8 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         let data = await fetchJson(`${baseUrl}/api/twitterdl?url=${q}`)
         reply("*Downloading...*")
         //send video (hd,sd)
-        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD\n\n ${C͜͡OBRA-MD ๛}` }, { quoted: mek })
-        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n ${C͜͡OBRA-MD ๛}` }, { quoted: mek })  
+        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD\n\n ${DILISHA}` }, { quoted: mek })
+        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n ${DILISHA}` }, { quoted: mek })  
         //send audio    
         await conn.sendMessage(from, { audio: { url: data.data.data.audio }, mimetype: "audio/mpeg" }, { quoted: mek })  
     } catch (e) {
