@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 ///=================When editing, do not accidentally delete anything !!MAIN-CONFIG=================================
-SESSION_ID: process.env.SESSION_ID || " PUT SESSION ID",  // ADD Your Session Id 
+SESSION_ID: process.env.SESSION_ID || "eQNAEZjY#YsQLnCTuSUSKmT1_ZeB-Y60UwEEzCkrkP_66n1oxAb8",  // ADD Your Session Id 
 MONGODB: process.env.MONGODB || "mongodb+srv://laramd:sadeesha2006@anya.gvsp435.mongodb.net/?retryWrites=true&w=majority&appName=Anya", // Add your mongodb url
 };
 MODE: process.env.MODE || "public",  // Add Your Bot Mode (groups/privet/public)
